@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "DMG3415U-7")(type "Legacy")(uri "${KIPRJMOD}/LIB/DMG3415U-7.lib")(options "")(descr ""))
+  (lib (name "SE-rescue")(type "Legacy")(uri "${KIPRJMOD}/SE-rescue.lib")(options "")(descr ""))
+)

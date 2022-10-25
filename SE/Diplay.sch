@@ -1,0 +1,397 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Display_Character:NHD-0420H1Z U?
+U 1 1 62BB82ED
+P 7700 2300
+F 0 "U?" H 7700 1411 50  0000 C CNN
+F 1 "NHD-0420H1Z" H 7700 1320 50  0000 C CNN
+F 2 "Display:NHD-0420H1Z" H 7700 1400 50  0001 C CNN
+F 3 "http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf" H 7800 2200 50  0001 C CNN
+	1    7700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:NHD-0420H1Z U?
+U 1 1 62BB82F3
+P 7700 4250
+F 0 "U?" H 7700 3361 50  0000 C CNN
+F 1 "NHD-0420H1Z" H 7700 3270 50  0000 C CNN
+F 2 "Display:NHD-0420H1Z" H 7700 3350 50  0001 C CNN
+F 3 "http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf" H 7800 4150 50  0001 C CNN
+	1    7700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:PCF8574 U?
+U 1 1 62BB82F9
+P 4900 3000
+F 0 "U?" H 4900 3881 50  0000 C CNN
+F 1 "PCF8574" H 4900 3790 50  0000 C CNN
+F 2 "" H 4900 3000 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3000 6850 2600
+Wire Wire Line
+	6850 2600 7300 2600
+Wire Wire Line
+	6900 3100 6900 2700
+Wire Wire Line
+	6900 2700 7300 2700
+Wire Wire Line
+	6950 3200 6950 2800
+Wire Wire Line
+	6950 2800 7300 2800
+Wire Wire Line
+	7000 3300 7000 2900
+Wire Wire Line
+	7000 2900 7300 2900
+Wire Wire Line
+	6850 3000 6850 4550
+Wire Wire Line
+	6850 4550 7300 4550
+Connection ~ 6850 3000
+Wire Wire Line
+	6900 3100 6900 4650
+Wire Wire Line
+	6900 4650 7300 4650
+Connection ~ 6900 3100
+Wire Wire Line
+	6950 3200 6950 4750
+Wire Wire Line
+	6950 4750 7300 4750
+Connection ~ 6950 3200
+Wire Wire Line
+	7000 3300 7000 4850
+Wire Wire Line
+	7000 4850 7300 4850
+Connection ~ 7000 3300
+$Comp
+L Device:R_POT RV?
+U 1 1 62BB8313
+P 5750 1900
+F 0 "RV?" H 5680 1946 50  0000 R CNN
+F 1 "R_POT" H 5680 1855 50  0000 R CNN
+F 2 "" H 5750 1900 50  0001 C CNN
+F 3 "~" H 5750 1900 50  0001 C CNN
+	1    5750 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3300 7000 3300
+Wire Wire Line
+	5400 3200 6950 3200
+Wire Wire Line
+	5400 3000 6850 3000
+Wire Wire Line
+	5400 3100 6900 3100
+Wire Wire Line
+	5750 2050 5750 3350
+Wire Wire Line
+	7700 1500 6800 1500
+Wire Wire Line
+	7700 3450 6800 3450
+Wire Wire Line
+	6800 3450 6800 1500
+Connection ~ 6800 1500
+Wire Wire Line
+	6800 1500 5750 1500
+Wire Wire Line
+	7800 3450 7800 3400
+Wire Wire Line
+	7800 3400 5600 3400
+Wire Wire Line
+	7800 1500 7800 1450
+Wire Wire Line
+	7800 1450 5600 1450
+Wire Wire Line
+	7700 3100 7700 3350
+Wire Wire Line
+	7700 3350 5750 3350
+Connection ~ 5750 3350
+Wire Wire Line
+	5750 3350 5750 4700
+Wire Wire Line
+	7700 5050 5750 5050
+Wire Wire Line
+	5750 5050 5750 4700
+Connection ~ 5750 4700
+Wire Wire Line
+	3050 2700 3400 2700
+$Comp
+L Device:R R?
+U 1 1 62BB832F
+P 3150 2000
+F 0 "R?" H 3220 2046 50  0000 L CNN
+F 1 "10k" H 3220 1955 50  0000 L CNN
+F 2 "" V 3080 2000 50  0001 C CNN
+F 3 "~" H 3150 2000 50  0001 C CNN
+	1    3150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BB8335
+P 3400 2000
+F 0 "R?" H 3470 2046 50  0000 L CNN
+F 1 "10k" H 3470 1955 50  0000 L CNN
+F 2 "" V 3330 2000 50  0001 C CNN
+F 3 "~" H 3400 2000 50  0001 C CNN
+	1    3400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1850 3400 1850
+Wire Wire Line
+	3150 2150 3150 2600
+Connection ~ 3150 2600
+Wire Wire Line
+	3400 2150 3400 2700
+Connection ~ 3400 2700
+Wire Wire Line
+	3400 1850 4350 1850
+Connection ~ 3400 1850
+Wire Wire Line
+	3150 2600 4400 2600
+Wire Wire Line
+	3400 2700 4400 2700
+Wire Wire Line
+	2950 4700 3800 4700
+$Comp
+L Device:R R?
+U 1 1 62BB8345
+P 3950 2900
+F 0 "R?" H 4020 2946 50  0000 L CNN
+F 1 "100k" H 4020 2855 50  0000 L CNN
+F 2 "" V 3880 2900 50  0001 C CNN
+F 3 "~" H 3950 2900 50  0001 C CNN
+	1    3950 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BB834B
+P 3950 3200
+F 0 "R?" H 4020 3246 50  0000 L CNN
+F 1 "100k" H 4020 3155 50  0000 L CNN
+F 2 "" V 3880 3200 50  0001 C CNN
+F 3 "~" H 3950 3200 50  0001 C CNN
+	1    3950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BB8351
+P 3950 3500
+F 0 "R?" H 4020 3546 50  0000 L CNN
+F 1 "100k" H 4020 3455 50  0000 L CNN
+F 2 "" V 3880 3500 50  0001 C CNN
+F 3 "~" H 3950 3500 50  0001 C CNN
+	1    3950 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2900 4100 2900
+Wire Wire Line
+	4100 3200 4150 3200
+Wire Wire Line
+	4150 3200 4150 3000
+Wire Wire Line
+	4150 3000 4400 3000
+Wire Wire Line
+	4100 3500 4200 3500
+Wire Wire Line
+	4200 3500 4200 3100
+Wire Wire Line
+	4200 3100 4400 3100
+Wire Wire Line
+	3800 2900 3800 3200
+Connection ~ 3800 4700
+Wire Wire Line
+	3800 4700 4900 4700
+Connection ~ 3800 3200
+Wire Wire Line
+	3800 3200 3800 3500
+Connection ~ 3800 3500
+Wire Wire Line
+	3800 3500 3800 4700
+Connection ~ 5750 1650
+Wire Wire Line
+	5750 1500 5750 1650
+Wire Wire Line
+	5750 1650 5750 1750
+Wire Wire Line
+	5500 1850 5500 1650
+Wire Wire Line
+	5500 1650 5750 1650
+Text GLabel 4250 1650 0    50   Input ~ 0
+5v
+Wire Wire Line
+	4250 1650 4350 1650
+Wire Wire Line
+	4350 1650 4350 1850
+Connection ~ 4350 1850
+Wire Wire Line
+	4350 1850 4900 1850
+Connection ~ 4900 1850
+Wire Wire Line
+	4900 1850 5500 1850
+Wire Wire Line
+	4900 3700 4900 4700
+Connection ~ 4900 4700
+Wire Wire Line
+	4900 4700 5750 4700
+Wire Wire Line
+	5400 2800 6750 2800
+Wire Wire Line
+	6750 2800 6750 1900
+Wire Wire Line
+	6750 1900 7300 1900
+Wire Wire Line
+	6750 2800 6750 3850
+Wire Wire Line
+	6750 3850 7300 3850
+Connection ~ 6750 2800
+Wire Wire Line
+	5400 2600 6600 2600
+Wire Wire Line
+	6600 2600 6600 1700
+Wire Wire Line
+	6600 1700 7300 1700
+Wire Wire Line
+	5400 2700 6650 2700
+Wire Wire Line
+	6650 2700 6650 1800
+Wire Wire Line
+	6650 1800 7300 1800
+Wire Wire Line
+	6600 2600 6600 3650
+Wire Wire Line
+	6600 3650 7300 3650
+Connection ~ 6600 2600
+Wire Wire Line
+	6650 2700 6650 3750
+Wire Wire Line
+	6650 3750 7300 3750
+Connection ~ 6650 2700
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 62BB8386
+P 2700 2500
+F 0 "Q?" V 2949 2500 50  0000 C CNN
+F 1 "BSS138" V 3040 2500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 2425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2700 2500 50  0001 L CNN
+	1    2700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 62BB838C
+P 2700 3300
+F 0 "Q?" V 2949 3300 50  0000 C CNN
+F 1 "BSS138" V 3040 3300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 3225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2700 3300 50  0001 L CNN
+	1    2700 3300
+	0    1    1    0   
+$EndComp
+Text GLabel 2950 4700 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2900 2600 3150 2600
+Wire Wire Line
+	2900 3400 3050 3400
+Wire Wire Line
+	3050 3400 3050 2700
+Text GLabel 2300 1850 0    50   Input ~ 0
+3.33v
+Wire Wire Line
+	2700 2300 2300 2300
+Wire Wire Line
+	2300 2300 2300 1850
+Wire Wire Line
+	2700 3100 2300 3100
+Wire Wire Line
+	2300 3100 2300 2300
+Connection ~ 2300 2300
+Text GLabel 2250 3400 0    50   Input ~ 0
+SDA
+Text GLabel 2200 2600 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2500 2600 2200 2600
+Wire Wire Line
+	2500 3400 2250 3400
+$Comp
+L Device:R R?
+U 1 1 62BB83A0
+P 8350 1850
+F 0 "R?" H 8420 1896 50  0000 L CNN
+F 1 "330" H 8420 1805 50  0000 L CNN
+F 2 "" V 8280 1850 50  0001 C CNN
+F 3 "~" H 8350 1850 50  0001 C CNN
+	1    8350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 1500 7700 1400
+Wire Wire Line
+	7700 1400 8350 1400
+Wire Wire Line
+	8350 1400 8350 1700
+Connection ~ 7700 1500
+Wire Wire Line
+	8350 2000 8350 2600
+Wire Wire Line
+	8350 4550 8100 4550
+Wire Wire Line
+	8100 2600 8350 2600
+Connection ~ 8350 2600
+Wire Wire Line
+	8350 2600 8350 4550
+Wire Wire Line
+	7700 3350 8200 3350
+Wire Wire Line
+	8200 3350 8200 2500
+Wire Wire Line
+	8200 2500 8100 2500
+Connection ~ 7700 3350
+Wire Wire Line
+	8200 3350 8200 4450
+Wire Wire Line
+	8200 4450 8100 4450
+Connection ~ 8200 3350
+Wire Wire Line
+	4900 1850 4900 2300
+Wire Wire Line
+	5600 1450 5600 1900
+Connection ~ 5600 1900
+Wire Wire Line
+	5600 1900 5600 3400
+NoConn ~ 7300 2200
+NoConn ~ 7300 2300
+NoConn ~ 7300 2400
+NoConn ~ 7300 2500
+NoConn ~ 7300 4150
+NoConn ~ 7300 4250
+NoConn ~ 7300 4350
+NoConn ~ 7300 4450
+NoConn ~ 4400 3400
+$EndSCHEMATC

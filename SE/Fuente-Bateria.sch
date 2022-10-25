@@ -1,0 +1,323 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 62BD6C7A
+P 2200 3150
+F 0 "J?" H 2092 3335 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2092 3244 50  0000 C CNN
+F 2 "" H 2200 3150 50  0001 C CNN
+F 3 "~" H 2200 3150 50  0001 C CNN
+	1    2200 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62BD6C80
+P 5850 3450
+F 0 "C?" H 5965 3496 50  0000 L CNN
+F 1 "1000u" H 5965 3405 50  0000 L CNN
+F 2 "" H 5850 3450 50  0001 C CNN
+F 3 "~" H 5850 3450 50  0001 C CNN
+	1    5850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62BD6C86
+P 6750 3450
+F 0 "C?" H 6865 3496 50  0000 L CNN
+F 1 "100u" H 6865 3405 50  0000 L CNN
+F 2 "" H 6750 3450 50  0001 C CNN
+F 3 "~" H 6750 3450 50  0001 C CNN
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62BD6C8C
+P 5450 3450
+F 0 "C?" H 5565 3496 50  0000 L CNN
+F 1 "100n" H 5565 3405 50  0000 L CNN
+F 2 "" H 5488 3300 50  0001 C CNN
+F 3 "~" H 5450 3450 50  0001 C CNN
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3300 6750 3150
+Wire Wire Line
+	6750 3150 6550 3150
+Wire Wire Line
+	5950 3150 5850 3150
+Wire Wire Line
+	5450 3300 5450 3150
+Connection ~ 5450 3150
+Wire Wire Line
+	5850 3300 5850 3150
+Connection ~ 5850 3150
+Wire Wire Line
+	5850 3150 5450 3150
+Wire Wire Line
+	6750 3600 6750 3700
+Wire Wire Line
+	6750 3700 6250 3700
+Wire Wire Line
+	5450 3700 5450 3600
+Wire Wire Line
+	5850 3600 5850 3700
+Connection ~ 5850 3700
+Wire Wire Line
+	5850 3700 5450 3700
+Wire Wire Line
+	6250 3450 6250 3700
+Connection ~ 6250 3700
+Wire Wire Line
+	6250 3700 5850 3700
+Text GLabel 5350 3700 3    50   Input ~ 0
+GND
+Text GLabel 5700 3150 1    50   Input ~ 0
+12v
+Text GLabel 6750 3150 1    50   Input ~ 0
+5v
+$Comp
+L Switch:SW_DPST_x2 SW?
+U 1 1 62BD6CA6
+P 4600 3150
+F 0 "SW?" H 4600 3385 50  0000 C CNN
+F 1 "SW_DPST_x2" H 4600 3294 50  0000 C CNN
+F 2 "" H 4600 3150 50  0001 C CNN
+F 3 "~" H 4600 3150 50  0001 C CNN
+	1    4600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 62BD6CAC
+P 8100 3150
+F 0 "U?" H 8100 3392 50  0000 C CNN
+F 1 "AMS1117-3.3" H 8100 3301 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8100 3350 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8200 2900 50  0001 C CNN
+	1    8100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62BD6CB2
+P 7250 3450
+F 0 "C?" H 7365 3496 50  0000 L CNN
+F 1 "22u" H 7365 3405 50  0000 L CNN
+F 2 "" H 7250 3450 50  0001 C CNN
+F 3 "~" H 7250 3450 50  0001 C CNN
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62BD6CB8
+P 7600 3450
+F 0 "C?" H 7715 3496 50  0000 L CNN
+F 1 "100n" H 7715 3405 50  0000 L CNN
+F 2 "" H 7638 3300 50  0001 C CNN
+F 3 "~" H 7600 3450 50  0001 C CNN
+	1    7600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 62BD6CBE
+P 8700 3450
+F 0 "C?" H 8815 3496 50  0000 L CNN
+F 1 "22u" H 8815 3405 50  0000 L CNN
+F 2 "" H 8700 3450 50  0001 C CNN
+F 3 "~" H 8700 3450 50  0001 C CNN
+	1    8700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62BD6CC4
+P 9050 3450
+F 0 "C?" H 9165 3496 50  0000 L CNN
+F 1 "100n" H 9165 3405 50  0000 L CNN
+F 2 "" H 9088 3300 50  0001 C CNN
+F 3 "~" H 9050 3450 50  0001 C CNN
+	1    9050 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3150 7600 3150
+Connection ~ 6750 3150
+Wire Wire Line
+	8100 3450 8100 3700
+Wire Wire Line
+	8100 3700 7600 3700
+Connection ~ 6750 3700
+Wire Wire Line
+	8700 3600 8700 3700
+Wire Wire Line
+	8700 3700 8100 3700
+Connection ~ 8100 3700
+Wire Wire Line
+	9050 3600 9050 3700
+Wire Wire Line
+	9050 3700 8700 3700
+Connection ~ 8700 3700
+Wire Wire Line
+	9050 3300 9050 3150
+Wire Wire Line
+	8700 3300 8700 3150
+Wire Wire Line
+	8400 3150 8700 3150
+Connection ~ 8700 3150
+Wire Wire Line
+	8700 3150 9050 3150
+Text GLabel 8800 3150 1    50   Input ~ 0
+3.3v
+Wire Wire Line
+	7250 3300 7250 3150
+Connection ~ 7250 3150
+Wire Wire Line
+	7250 3150 6750 3150
+Wire Wire Line
+	7250 3600 7250 3700
+Connection ~ 7250 3700
+Wire Wire Line
+	7250 3700 6750 3700
+Wire Wire Line
+	7600 3300 7600 3150
+Connection ~ 7600 3150
+Wire Wire Line
+	7600 3150 7250 3150
+Wire Wire Line
+	7600 3600 7600 3700
+Connection ~ 7600 3700
+Wire Wire Line
+	7600 3700 7250 3700
+Connection ~ 5450 3700
+$Comp
+L Device:Fuse F?
+U 1 1 62BD6CE8
+P 2700 3150
+F 0 "F?" H 2760 3196 50  0000 L CNN
+F 1 "Fuse" H 2760 3105 50  0000 L CNN
+F 2 "" V 2630 3150 50  0001 C CNN
+F 3 "~" H 2700 3150 50  0001 C CNN
+	1    2700 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 3150 2400 3150
+$Comp
+L Transistor_FET:DMG3414U Q?
+U 1 1 62BD6CEF
+P 4050 2750
+F 0 "Q?" H 4254 2796 50  0000 L CNN
+F 1 "DMG3414U" H 4254 2705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 2675 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds31739.pdf" H 4050 2750 50  0001 L CNN
+	1    4050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:MBR1020VL D?
+U 1 1 62BD6CF5
+P 3850 3150
+F 0 "D?" H 3850 3366 50  0000 C CNN
+F 1 "MBR1020VL" H 3850 3275 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3850 2975 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF" H 3850 3150 50  0001 C CNN
+	1    3850 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BD6CFB
+P 3600 3400
+F 0 "R?" H 3670 3446 50  0000 L CNN
+F 1 "R" H 3670 3355 50  0000 L CNN
+F 2 "" V 3530 3400 50  0001 C CNN
+F 3 "~" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3150 3600 3150
+Wire Wire Line
+	3600 3150 3600 3250
+Wire Wire Line
+	3600 3550 3600 3700
+Connection ~ 3600 3700
+Wire Wire Line
+	3600 3700 5450 3700
+Wire Wire Line
+	4000 3150 4150 3150
+Wire Wire Line
+	4150 2950 4150 3150
+Connection ~ 4150 3150
+Wire Wire Line
+	4150 3150 4400 3150
+Connection ~ 3600 3150
+Wire Wire Line
+	2400 3250 2400 3700
+Wire Wire Line
+	2400 3700 3600 3700
+Wire Wire Line
+	3850 2750 3600 2750
+Wire Wire Line
+	3600 2750 3600 3150
+Text GLabel 4150 2400 0    50   Input ~ 0
+Vbat
+Wire Wire Line
+	4150 2400 4150 2550
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 62BD6D11
+P 2200 4500
+F 0 "J?" H 2228 4476 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 2228 4385 50  0000 L CNN
+F 2 "" H 2200 4500 50  0001 C CNN
+F 3 "~" H 2200 4500 50  0001 C CNN
+	1    2200 4500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2550 4600 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2550 4600 2400 4600
+Text GLabel 2550 4450 1    50   Input ~ 0
+Vbat
+Wire Wire Line
+	2550 4450 2550 4500
+Wire Wire Line
+	2550 4500 2400 4500
+Wire Wire Line
+	3600 3150 2850 3150
+$Comp
+L Regulator_Linear:AMS1117-5.0 U?
+U 1 1 62BD6D1D
+P 6250 3150
+F 0 "U?" H 6250 3392 50  0000 C CNN
+F 1 "AMS1117-5.0" H 6250 3301 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6250 3350 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6350 2900 50  0001 C CNN
+	1    6250 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3150 5450 3150
+$EndSCHEMATC
