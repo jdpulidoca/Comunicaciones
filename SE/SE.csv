@@ -1,34 +1,17 @@
-"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
-1;"D8,D7,D4,D3,D2,D1";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";6;"LED";;;
-2;"C10,C8,C4";"C_1206_3216Metric_Pad1.33x1.80mm_HandSolder";3;"100n";;;
-3;"C9,C7";"C_1206_3216Metric_Pad1.33x1.80mm_HandSolder";2;"22u";;;
-4;"C6,C5";"C_1206_3216Metric_Pad1.33x1.80mm_HandSolder";2;"100u";;;
-5;"C3,C2,C1";"C_1206_3216Metric_Pad1.33x1.80mm_HandSolder";3;"10u";;;
-6;"REF**,REF**,REF**,REF**";"MountingHole_2.2mm_M2_ISO14580_Pad";4;"MountingHole_2.2mm_M2_ISO14580_Pad";;;
-7;"U2,U3";"LCD_LCD-20X4B";2;"NHD-0420H1Z";;;
-8;"U7";"SOT95P240X105-3N";1;"DMG3415U-7";;;
-9;"U6";"SOT-223-3_TabPin2";1;"AMS1117-3.3";;;
-10;"U5";"SOT-223-3_TabPin2";1;"AMS1117-5.0";;;
-11;"U4";"PCF8574ADWR_DW16";1;"PCF8574";;;
-12;"U1";"ESP32-WROOM-32";1;"ESP32-WROOM-32";;;
-13;"SW4";"SW_SPDT_CK-JS102011SAQN";1;"SW_DPDT_x2";;;
-14;"SW3";"SW_Push_SPST_NO_Alps_SKRK";1;"Reset";;;
-15;"SW2";"SW_Push_SPST_NO_Alps_SKRK";1;"ResetP";;;
-16;"SW1";"SW_Push_SPST_NO_Alps_SKRK";1;"Program";;;
-17;"RV1";"Potentiometer_Bourns_3296W_Vertical";1;"10k";;;
-18;"R19,R15,R7,R6,R5";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";5;"100k";;;
-19;"R18";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"1.8k";;;
-20;"R17,R16";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"1k";;;
-21;"R14";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"1.2k";;;
-22;"R13,R10,R9,R4,R3,R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";6;"10k";;;
-23;"R12,R11,R2";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"220";;;
-24;"R8";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"330";;;
-25;"Q4";"TO-92_Inline";1;"BC548";;;
-26;"Q2,Q1";"SOT-23";2;"BSS138";;;
-27;"K1";"Relay_SPDT_SANYOU_SRD_Series_Form_C";1;"SANYOU_SRD_Form_C";;;
-28;"J5,J4,J3";"Molex_Micro-Latch_53254-0270_1x02_P2.00mm_Horizontal";3;"Conn_01x02_Female";;;
-29;"J2";"Molex_Micro-Latch_53254-0770_1x07_P2.00mm_Horizontal";1;"Conn_01x07_Female";;;
-30;"J1";"PinSocket_1x03_P2.54mm_Horizontal";1;"Conn_01x03_Female";;;
-31;"F1";"Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder";1;"Fuse";;;
-32;"D6";"D_SOD-123F";1;"MBR1020VL";;;
-33;"D5";"D_SOD-123";1;"1N4148W";;;
+"Source:","C:\Users\julip\Documents\GitHub\Comunicaciones\SE\SE.kicad_sch"
+"Date:","29/10/2022 9:45:50 p. m."
+"Tool:","Eeschema (6.0.8)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","12"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"BZ1, ","1","Buzzer","Buzzer","LIB:Buzzer_12x9.5RM7.6","Buzzer, polarized",""
+"D1, D4, ","2","LED","LED","LED_THT:LED_D3.0mm","Light emitting diode",""
+"D5, ","1","1N4148W","1N4148W","Diode_SMD:D_SOD-123","75V 0.15A Fast Switching Diode, SOD-123",""
+"J1, ","1","RJ45","RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","RJ connector, 8P8C (8 positions 8 connected)",""
+"J2, ","1","Conn_01x04_Female","Conn_01x04_Female","Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J3, ","1","Conn_01x03_Female","Conn_01x03_Female","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"Q4, ","1","BC548","BC548","Package_TO_SOT_THT:TO-92_Inline","0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92",""
+"R1, ","1","R","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"R14, ","1","1.2k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"R18, ","1","1.8k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"R19, ","1","100k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""

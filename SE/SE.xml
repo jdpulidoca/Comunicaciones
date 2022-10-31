@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\julip\Desktop\SE\SE.kicad_sch</source>
-    <date>19/10/2022 9:20:56 p. m.</date>
+    <source>C:\Users\julip\Documents\GitHub\Comunicaciones\SE\SE.kicad_sch</source>
+    <date>29/10/2022 9:45:50 p. m.</date>
     <tool>Eeschema (6.0.8)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -29,7 +29,7 @@
       <footprint>LIB:Buzzer_12x9.5RM7.6</footprint>
       <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>110b7f24-2aa9-4e32-bbb3-a5a78e89ad70</tstamps>
     </comp>
@@ -38,7 +38,7 @@
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>85965577-7bdc-4b65-8589-f2241d06939a</tstamps>
     </comp>
@@ -47,7 +47,7 @@
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006293854b</tstamps>
     </comp>
@@ -57,16 +57,16 @@
       <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
       <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062887212</tstamps>
     </comp>
     <comp ref="J1">
       <value>RJ45</value>
-      <footprint>Connector_RJ:RJ45_Amphenol_RJHSE538X</footprint>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
       <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>36823d2e-bc78-4deb-a39c-00dcc8f76d6d</tstamps>
     </comp>
@@ -75,7 +75,7 @@
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>98ebee81-5407-4028-bd1a-b0e18cd64fc9</tstamps>
     </comp>
@@ -84,7 +84,7 @@
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal</footprint>
       <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>51b9ff33-12aa-469c-b135-6fb6b04525a8</tstamps>
     </comp>
@@ -94,7 +94,7 @@
       <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
       <libsource lib="Transistor_BJT" part="BC548" description="0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000062b6f2e3</tstamps>
     </comp>
@@ -103,7 +103,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>574d180d-2261-4e5f-814d-3f4f0fc18e69</tstamps>
     </comp>
@@ -112,7 +112,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000628f6bda</tstamps>
     </comp>
@@ -121,7 +121,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006318a99b</tstamps>
     </comp>
@@ -130,7 +130,7 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: SE.kicad_sch"/>
+      <property name="Sheetfile" value="Archivo: SE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063189590</tstamps>
     </comp>
@@ -306,7 +306,8 @@
     <net code="1" name="+3.3V">
       <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
     </net>
@@ -321,7 +322,7 @@
     <net code="4" name="GND">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="2" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
@@ -330,24 +331,24 @@
       <node ref="J1" pin="6" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(D4-Pad1)">
+    <net code="6" name="Net-(BZ1-Pad2)">
       <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(D4-Pad2)">
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(Q4-Pad2)">
+    <net code="9" name="Net-(Q4-Pad2)">
       <node ref="Q4" pin="2" pinfunction="B" pintype="input"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
-    </net>
-    <net code="9" name="Net-(R1-Pad2)">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
     </net>
     <net code="10" name="SCL">
       <node ref="J1" pin="4" pintype="passive"/>
@@ -357,10 +358,7 @@
       <node ref="J1" pin="3" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="12" name="unconnected-(J1-Pad1)">
-      <node ref="J1" pin="1" pintype="passive"/>
-    </net>
-    <net code="13" name="unconnected-(J1-Pad8)">
+    <net code="12" name="unconnected-(J1-Pad8)">
       <node ref="J1" pin="8" pintype="passive+no_connect"/>
     </net>
   </nets>
